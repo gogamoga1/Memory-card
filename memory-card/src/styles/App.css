@@ -1,0 +1,48 @@
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo-cell {
+  width: 250px;
+  height: 300px;
+  border: 2px solid tomato;
+  padding: 1em;
+  margin: 2em;
+  text-align: center;
+}
+
+.photo-cell p {
+  border: 1px solid white;
+}
+
+header {
+  background-color: #103297d9;
+  border: 1px black solid;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-score-container {
+  display: flex;
+  margin-right: 1em;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header-score-container p {
+  margin-right: 10px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 95%;
+}
+
+.img-container {
+  height: 90%;
+  overflow: hidden;
+  text-align: center;
+}
