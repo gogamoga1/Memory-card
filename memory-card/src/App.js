@@ -1,6 +1,6 @@
 import Header from './components/Header'
 import './styles/App.css'
-import React, { useState, useEffect } from 'react'
+import React, { useState} from 'react'
 import './components/Header.js'
 import './components/MainGrid.js'
 import MainGrid from './components/MainGrid.js'

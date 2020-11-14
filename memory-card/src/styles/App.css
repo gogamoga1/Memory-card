@@ -1,27 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
 .flex-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+  cursor: pointer;
 }
 
-.photo-cell {
+.project-name {
+  margin-left: 2vh;
+  letter-spacing: 1px;
+}
+
+.card-cell {
   width: 250px;
   height: 300px;
-  border: 2px solid tomato;
-  padding: 1em;
-  margin: 2em;
+  border-radius: 3px;
+  margin: 1em;
   text-align: center;
+  transition: all 0.2s ease;
 }
 
-.photo-cell p {
-  border: 1px solid white;
+.card-cell:hover {
+  transform: scale(1.05);
+  box-shadow: 6px 6px 14px -4px rgba(0, 0, 0, 0.6);
+}
+
+.card-cell p {
+  border: 1px solid black;
 }
 
 header {
+  color: white;
   background-color: #103297d9;
-  border: 1px black solid;
+  box-shadow: -1px -4px 1rem 2px black;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  font-family: 'Orbitron', sans-serif;
+
 }
 
 .header-score-container {
@@ -39,10 +57,9 @@ header {
 img {
   max-width: 100%;
   max-height: 95%;
+  width: 200px;
 }
 
 .img-container {
   height: 90%;
-  overflow: hidden;
-  text-align: center;
 }

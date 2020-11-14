@@ -3,7 +3,7 @@ import React from 'react'
 const Header = ({curScore, bestScore}) => {
   return (
     <header>
-            Memory Game
+            <div className='project-name'>MEMORY GAME</div>
 
       <div className="header-score-container">
         <p>Best Score: {bestScore}</p>
